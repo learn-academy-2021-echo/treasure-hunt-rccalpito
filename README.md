@@ -18,6 +18,11 @@
     - setup handle click and on click for square
     - setup handleGameplay method in app.js that receives the index from square using functional props
 - As a user, when I click on one of the question marks instead of the alert the question mark turns into a tree emoji.
+    - branch: tree-emoji
+    - destructure board out of state
+    - assign the given index a new value
+    - emoji keyboard is control+command+space
+    - set state with the updated array
 - As a user, if I select the winning square the question mark will become a treasure emoji.
 - As a user, if I select the losing square the question mark will become a bomb emoji.
 - As a user, I can see a counter that shows how many guesses I have left. The counter starts at 5 and decrements one every time I click on a square that is not the treasure nor the bomb.
