@@ -11,11 +11,19 @@ class App extends Component{
     }
   }
 
+
   componentDidMount(){
     let treasure = Math.floor(Math.random() *
     this.state.board.length)
     this.setState({treasureLocation: treasure})
   }
+
+handleGamePlay = (index) => {
+  const { board } = this.state
+  board[index] = "🌲"
+  this.setState({board: board})
+}
+
 
   handleGamePlay = (index) => {
     const { board, treasureLocation } = this.state
