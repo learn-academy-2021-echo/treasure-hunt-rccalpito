@@ -13,6 +13,10 @@
     - added a gameboard div around the mapped logic
     - styled the gameboard and the question mark
 - As a user, when I click on one of the question marks an alert appears with the index position of that question mark in the array.
+    - branch: index-position
+    - passed index from the map to square
+    - setup handle click and on click for square
+    - setup handleGameplay method in app.js that receives the index from square using functional props
 - As a user, when I click on one of the question marks instead of the alert the question mark turns into a tree emoji.
 - As a user, if I select the winning square the question mark will become a treasure emoji.
 - As a user, if I select the losing square the question mark will become a bomb emoji.
